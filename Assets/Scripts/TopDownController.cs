@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class TopDownController : MonoBehaviour {
     public float speed;
 
+    public int coinsAmount;
+
     private Rigidbody myRigidbody;
     private Animator animator;
 
@@ -33,5 +35,9 @@ public class TopDownController : MonoBehaviour {
         } else {
             animator.SetFloat("Speed", 0);
         }
+    }
+
+    public void CollectCoin() {
+        coinsAmount++;
     }
 }
