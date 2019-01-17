@@ -42,4 +42,8 @@ public class TopDownController : MonoBehaviour {
         coinsAmount++;
         coinsText.text = "Moedas: " + coinsAmount.ToString();
     }
+
+    public void StopMoving() {
+        myRigidbody.velocity = Vector3.zero;
+    }
 }

@@ -19,7 +19,8 @@ public class EnemyBehaviour : MonoBehaviour {
     }
 
     private void Update() {
-        navMeshAgent.SetDestination(playerTransform.position);
+        if(navMeshAgent.enabled)
+            navMeshAgent.SetDestination(playerTransform.position);
     }
 
     private void OnCollisionEnter(Collision col) {
