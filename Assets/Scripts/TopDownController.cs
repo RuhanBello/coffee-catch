@@ -7,6 +7,7 @@ public class TopDownController : MonoBehaviour {
     public float speed;
 
     public int coinsAmount;
+    public Text coinsText;
 
     private Rigidbody myRigidbody;
     private Animator animator;
@@ -39,5 +40,6 @@ public class TopDownController : MonoBehaviour {
 
     public void CollectCoin() {
         coinsAmount++;
+        coinsText.text = "Moedas: " + coinsAmount.ToString();
     }
 }
