@@ -19,10 +19,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 783, y: 492}
-  m_MaxSize: {x: 16008, y: 14042}
+  m_MinSize: {x: 783, y: 471}
+  m_MaxSize: {x: 16008, y: 14021}
   vertical: 1
-  controlID: 11906
+  controlID: 13474
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -122,10 +122,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 947
-  m_MinSize: {x: 783, y: 492}
-  m_MaxSize: {x: 16008, y: 14042}
+  m_MinSize: {x: 783, y: 471}
+  m_MaxSize: {x: 16008, y: 14021}
   vertical: 0
-  controlID: 11907
+  controlID: 13475
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,10 +146,10 @@ MonoBehaviour:
     y: 0
     width: 1548
     height: 947
-  m_MinSize: {x: 506, y: 492}
-  m_MaxSize: {x: 12006, y: 14042}
+  m_MinSize: {x: 506, y: 471}
+  m_MaxSize: {x: 12006, y: 14021}
   vertical: 1
-  controlID: 11908
+  controlID: 13476
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -174,7 +174,7 @@ MonoBehaviour:
   m_MinSize: {x: 506, y: 221}
   m_MaxSize: {x: 12006, y: 4021}
   vertical: 0
-  controlID: 11909
+  controlID: 13477
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -227,9 +227,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c6980000
-    m_LastClickedID: 39110
-    m_ExpandedIDs: 2863fcffee6dfcfff46dfcfffa6dfcff006efcff0e6efcff546efcff786efcff906efcffa86efcff2a79feffdefbffffe2fbffffe4fbffff000000000a340000
+    m_SelectedIDs: 926dfcff
+    m_LastClickedID: -234094
+    m_ExpandedIDs: cec6faffc45bfbff2863fcffee6dfcfff46dfcfffa6dfcff006efcff0e6efcff546efcff786efcff906efcffa86efcff2a79feffdefbffffe2fbffffe4fbffff000000000a340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -271,8 +271,8 @@ MonoBehaviour:
     y: 0
     width: 463
     height: 676
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 104, y: 121}
+  m_MaxSize: {x: 4004, y: 4021}
   m_ActualView: {fileID: 9}
   m_Panes:
   - {fileID: 9}
@@ -409,7 +409,7 @@ MonoBehaviour:
   - {fileID: 12}
   - {fileID: 13}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -534,20 +534,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Audio
+    - Assets/PostProcessing/Utilities/CustomMotionTexture
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Audio
+  - Assets/PostProcessing/Utilities/CustomMotionTexture
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\ruhan\Documents\UnityWorkspace\Platzi\Platzi - Coffee
     Catch
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 31}
-    m_SelectedIDs: 84310000
-    m_LastClickedID: 12676
+    scrollPos: {x: 0, y: 55}
+    m_SelectedIDs: c02d0000
+    m_LastClickedID: 11712
     m_ExpandedIDs: 00000000c22c0000ce2c0000f42c0000c02d0000c22d0000682e0000462f000088320000c8320000ba370000bc370000be370000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -601,8 +601,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: c6980000
-    m_LastClickedInstanceID: 39110
+    m_SelectedInstanceIDs: 926dfcff
+    m_LastClickedInstanceID: -234094
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: e4ea000088990100ce360000c63e0000ea2601003e2d0000a45a0000
     m_RenameOverlay:
@@ -620,7 +620,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 14}
+      m_ClientGUIView: {fileID: 19}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
