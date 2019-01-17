@@ -97,6 +97,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 50
+  collectParticles: {fileID: 1809812324845184, guid: a3825737b966e2c4a9362ed41dc3dabd,
+    type: 2}
 --- !u!135 &135029599448363162
 SphereCollider:
   m_ObjectHideFlags: 1
