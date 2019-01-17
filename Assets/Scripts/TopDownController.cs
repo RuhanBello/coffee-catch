@@ -23,5 +23,7 @@ public class TopDownController : MonoBehaviour {
         movementVector *= speed;
 
         myRigidbody.velocity = movementVector;
+
+        transform.LookAt(transform.position + movementVector);
     }
 }
