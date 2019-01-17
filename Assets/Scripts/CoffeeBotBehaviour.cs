@@ -11,6 +11,8 @@ public class CoffeeBotBehaviour : MonoBehaviour {
     public GameObject firstCoffeeCup;
     public GameObject secondCoffeeCup;
 
+    public AudioSource audioSource;
+
     private void OnCollisionEnter(Collision collision) {
         if (collision.gameObject.CompareTag("Player")) {
             TopDownController controller = collision.gameObject.GetComponent<TopDownController>();
@@ -22,6 +24,7 @@ public class CoffeeBotBehaviour : MonoBehaviour {
 
     IEnumerator MakeCoffee() {
         gameManager.GameOver();
+        audioSource.Play();
 
         yield return new WaitForSeconds(2);
 
