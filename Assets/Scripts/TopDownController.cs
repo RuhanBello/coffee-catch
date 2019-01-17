@@ -7,10 +7,12 @@ public class TopDownController : MonoBehaviour {
     public float speed;
 
     private Rigidbody myRigidbody;
+    private Animator animator;
 
     // Use this for initialization
     void Start() {
         myRigidbody = GetComponent<Rigidbody>();
+        animator = GetComponentInChildren<Animator>();
     }
 
     // Update is called once per frame
@@ -25,5 +27,11 @@ public class TopDownController : MonoBehaviour {
         myRigidbody.velocity = movementVector;
 
         transform.LookAt(transform.position + movementVector);
+
+        if (horizontal != 0 || vertical != 0) {
+            animator.SetFloat("Speed", 1);
+        } else {
+            animator.SetFloat("Speed", 0);
+        }
     }
 }
