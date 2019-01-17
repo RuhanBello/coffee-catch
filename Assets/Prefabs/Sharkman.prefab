@@ -591,6 +591,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4838106362452976}
   - component: {fileID: 95460944033671434}
+  - component: {fileID: 114553841809280318}
+  - component: {fileID: 136745883313427940}
+  - component: {fileID: 195189114629228780}
   m_Layer: 0
   m_Name: Sharkman
   m_TagString: Untagged
@@ -1800,6 +1803,30 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114553841809280318
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1537939316356014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2f04b0d7f54c574e93dcded4aa12989, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!136 &136745883313427940
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1537939316356014}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.25
+  m_Height: 2.065698
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.0470668, z: 0}
 --- !u!137 &137996771188259610
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -1893,3 +1920,24 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.1946752, y: -0.0007519722, z: -0.06909007}
     m_Extent: {x: 1.1438313, y: 1.3672259, z: 0.4599617}
   m_DirtyAABB: 0
+--- !u!195 &195189114629228780
+NavMeshAgent:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1537939316356014}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 250
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
